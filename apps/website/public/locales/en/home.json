@@ -1,0 +1,19 @@
+{
+  "hero": [
+    "A highly customizable",
+    "Component library",
+    "Toolset",
+    "of frontend development which is created for developers with peace."
+  ],
+  "components": "Components",
+  "tools": "Tools",
+  "completed": [
+    [
+      "✅ Completed with ",
+      "React already."
+    ]
+  ],
+  "footer": {
+    "createdBy": "Created by {{ author }}"
+  }
+}

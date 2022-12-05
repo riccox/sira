@@ -1,0 +1,33 @@
+{
+  "name": "@sira-ui/react-hooks",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint *.ts*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccox/sira.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/riccox/sira/issues"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "types": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+  }
+}

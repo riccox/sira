@@ -1,0 +1,73 @@
+@import url('https://gfonts.riccox.com/fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html,
+    body {
+        font-size: 16px;
+        @apply z-0 m-0 p-0 w-screen h-screen font-mono bg-light text-dark dark:bg-dark dark:text-light;
+        @apply font-code;
+    }
+
+    img.--rectangle {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    a {
+        @apply hover:underline underline-offset-4 cursor-pointer;
+    }
+
+    .--page {
+        @apply flex flex-col w-screen h-screen;
+    }
+
+    /* Works on Firefox */
+    *:hover {
+        scrollbar-color: rgb(150, 150, 150) transparent;
+    }
+
+    * {
+        scrollbar-width: 0.3rem;
+        scrollbar-color: transparent;
+    }
+
+    /* Works on Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        /* avoid div width shift from scrollbar */
+        width: 0.3rem;
+        height: 0.3rem;
+        background: transparent;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    *:hover::-webkit-scrollbar-thumb {
+        background-color: rgb(150, 150, 150);
+        border: 0.15rem solid transparent;
+        border-radius: 1.4rem;
+        -webkit-border-radius: 1.4rem;
+        -moz-border-radius: 1.4rem;
+        -ms-border-radius: 1.4rem;
+        -o-border-radius: 1.4rem;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+}
+
+@layer components {
+    .--img-container-square {
+        @apply flex justify-center items-center overflow-hidden aspect-square;
+    }
+}
+
+@layer utilities {
+}

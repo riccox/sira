@@ -1,73 +1,52 @@
-# Turborepo starter
+<div align="center">
 
-This is an official pnpm starter turborepo.
+<img width="7%" alt="logo" src="https://assets.riccox.com/sira/logo/plain.svg"/>
 
-## What's inside?
+[![Stars](https://img.shields.io/github/stars/riccox/sira?style=social)](https://github.com/riccox/sira)
+[![License](https://img.shields.io/github/license/riccox/sira)](./LICENSE)
+[![Vercel](https://img.shields.io/github/deployments/riccox/sira/production?label=Vercel&logo=vercel)](https://sira.riccox.com)
 
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
+[Sira](https://sira.riccox.com) is a component library and a serial toolset of frontend development.
 
-### Apps and Packages
+Our primary goal is to create a system that can be used to build a wide variety of websites and apps,
+while providing a consistent and inclusive user experience to our end users.
+In addition, the design system and component library should be easy to use for developers and designers.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+</div>
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## Quick start
 
-### Utilities
+Here are a few helpful links for getting started with Sira:
 
-This turborepo has some additional tools already setup for you:
+- [Website](https://sira.riccox.com/) - Read more about Sira.
+- [Documentation](https://sira.riccox.com/guide) - Learn how to use Sira.
+- [Components](https://sira.riccox.com/components) - View the components.
+- [Components](https://sira.riccox.com/tools) - View the tools.
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+## Contributing
 
-### Build
+If you have ideas for how we could improve this readme or the project in
+general, [let us know](https://github.com/riccox/sira/issues)
+or [contribute some](https://github.com/riccox/sira/edit/main/README.md)!
 
-To build all apps and packages, run the following command:
+## Thanks
 
-```
-cd my-turborepo
-pnpm run build
-```
+Thanks to these following projects for providing the additional dependencies that helps us create this project.
 
-### Develop
+- React.js - Basic UI framework
+- Tailwindcss - Website css solution
+- MUI Base - unstyled React UI components
+- Radix Primitives - a11y unstyled components
+- Turborepo - monorepo packages build tool
+- tsup - typescript package build tool
+- Emotion - components style customization solution
+- Prism - code highlight component
+- Mantine - react component library for principle reference
+- Chroma-js - color generator tool
+- Lodash - js utils lib
+- react-icons - react icon collection lib
+- dayjs - js time & date lib
 
-To develop all apps and packages, run the following command:
+## Maintainers
 
-```
-cd my-turborepo
-pnpm run dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-pnpm dlx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-pnpm dlx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Pipelines](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+- [Ricco Xie](mailto:ricco@riccox.com)
